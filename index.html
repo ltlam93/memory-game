@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML5 Memory Game</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/jquery.flip.js"></script>
+    <script src="js/matching.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<section id="game">
+    <header>
+        <div>Simple HTML5 Memory Game</div>
+    </header>
+    <div class="cScore"><span id=iScore>0</span>s</div>
+    <div class="clear"></div>
+    <section id="board"></section>
+</section>
+<audio id="audioEngine">
+    <source src="mp3/bgm.ogg" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+
+<div id="overlay">
+    <div id="dialog-me">
+        <label>Score</label>
+        <input type="text" id="score" value="0" readonly>
+        <input type="submit" id="play" value="Play">
+    </div>
+</div>
+</body>
+<!--©Lâm Saber-->
+</html>

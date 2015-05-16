@@ -1,0 +1,11 @@
+{
+  "name": "Simple HTML5 Memory Game",
+  "description": "Simple HTML5 Memory Game",
+  "version": "0.1",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "128": "images/start-button.png" }
+}
